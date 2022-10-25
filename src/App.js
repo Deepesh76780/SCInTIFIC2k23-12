@@ -5,6 +5,9 @@ import { Section2 } from './Components/LandingPage.jsx/Section2';
 import { Section3 } from './Components/LandingPage.jsx/Section3';
 import { Section4 } from './Components/LandingPage.jsx/Section4';
 import { Section5 } from './Components/LandingPage.jsx/Section5';
+import { Timeline } from './Components/Timeline';
+import { Themes } from './Components/Themes/Themes';
+import { JudingCriteria } from './Components/JudingCriteria';
 
 function App() {
   return (
@@ -19,8 +22,13 @@ function App() {
       <Section4 />
       <div className='h-[75px]'></div>
       <Section5 />
-      
-      
+      <div className='h-[75px]'></div>
+      <Timeline />
+      <div className='h-[75px]'></div>
+      <Themes  />
+      <div className='h-[75px]'></div>
+      <JudingCriteria />
+      <div className='h-[75px]'></div>
     </div>
   )
 }
