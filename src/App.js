@@ -8,6 +8,8 @@ import { Section5 } from './Components/LandingPage.jsx/Section5';
 import { Timeline } from './Components/Timeline';
 import { Themes } from './Components/Themes/Themes';
 import { JudingCriteria } from './Components/JudingCriteria';
+import { Footer } from './Components/Footer';
+import { Sponsors } from './Components/Sponsors';
 
 function App() {
   return (
@@ -28,7 +30,11 @@ function App() {
       <Themes  />
       <div className='h-[75px]'></div>
       <JudingCriteria />
-      <div className='h-[75px]'></div>
+      <div className='h-[125px]'></div>
+      <Sponsors />
+      <div className='h-[100px]'></div>
+      <Footer />
+      <div className='h-[25px]'></div>
     </div>
   )
 }
