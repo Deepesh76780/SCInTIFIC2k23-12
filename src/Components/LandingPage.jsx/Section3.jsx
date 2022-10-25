@@ -6,7 +6,7 @@ export const Section3 = () => {
             <div className='w-[750px] h-[600px]'>
                 <img src="./assets/section3.png" className='scale-75' alt="" />
             </div>
-            <div className='flex flex-col justify-center items-center w-[480px] h-[600px] mr-20 space-y-6'>
+            <div className='flex flex-col justify-center items-center w-[480px] h-[600px] mr-14 space-y-6 px-4'>
                 <div className='text-5xl text-transparent  bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-bold'>
                     Ideathon 5.0
                 </div>
