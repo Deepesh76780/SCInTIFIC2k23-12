@@ -5,3 +5,11 @@
 {
     font-family: 'Montserrat', sans-serif;
 }
+#eta {
+    content: "\03B7";
+    font-family: '';
+}
+#prime {
+    content: "\2032";
+    /* font-family: ''; */
+  }

@@ -5,7 +5,7 @@ export const HeroSection = () => {
         <div className='flex flex-col justify-center items-start h-[540px] px-10'>
             <div className='flex flex-col justify-start items-start  space-y-1'>
                 <div className='font-extrabold text-transparent text-[5rem] bg-clip-text bg-gradient-to-r from-[#4776E6] to-[#8E54E9] '>
-                    SCInTIFIC 2k23
+                    SCI<span id='eta'>&#951;</span><span id='prime'>&#8242;</span>TFIC 2k23
                 </div>
                 <div className='text-transparent text-[1.5rem] bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] '>
                     Science and Technology over Fiction
