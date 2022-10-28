@@ -30,7 +30,7 @@ export const HeroSection = () => {
                     </div>
                     <div>
                         <div className='w-[180px] h-[48px] rounded-full border-2 drop-shadow-xl cursor-pointer flex justify-center items-center text-transparent  bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] font-bold border-[#272727]'>
-                        This year’s themes
+                            This year’s themes
                         </div>
                     </div>
                 </div>
