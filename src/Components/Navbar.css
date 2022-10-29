@@ -1,0 +1,108 @@
+.Hamburger {
+  display: none;
+}
+
+.SubmitIdea {
+  display: none;
+}
+
+.NAV_ABOUT {
+  display: none;
+}
+
+.NavbarAbout {
+  /* display: contents; */
+  display: flex;
+}
+
+@media (max-width: 1120px) {
+  .NavbarAbout div {
+    font-size: 1rem;
+  }
+
+  .NavbarTitle {
+    font-size: 1.1rem;
+    z-index: 1;
+  }
+
+  .NavbarSubmit {
+    width: 15%;
+    font-size: 0.9rem;
+  }
+}
+
+.showit {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .NavbarAbout {
+    display: none;
+  }
+
+  .NavbarSubmit {
+    margin: auto auto;
+    width: fit-content;
+    padding: 5px;
+  }
+
+  .NavbarTitle {
+    font-size: 1rem;
+    z-index: 1;
+  }
+
+  .SubmitIdea {
+    display: block;
+  }
+
+  .NavbarDisplay {
+    display: none;
+  }
+  .Hamburger {
+    display: block;
+  }
+
+  .NAV_ABOUT {
+    position: relative;
+    z-index: 100px;
+  }
+
+  .NAV_ABOUT {
+    background-color: rgba(255, 255, 255, 0.903);
+    border-radius: 10px;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    transition: all 2s linear;
+    transform-origin: bottom;
+    box-shadow: rgba(36, 36, 36, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.697) 0px 30px 60px -30px;
+  }
+
+  .NAV_ABOUT div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .NAV_ABOUT div {
+    transition-delay: 0.2s;
+  }
+  .NAV_ABOUT {
+    grid-column: span 2;
+  }
+  .okBoss {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Logo {
+    justify-content: space-between;
+  }
+}
+/* ******************************************************** */
