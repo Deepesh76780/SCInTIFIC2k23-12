@@ -3,6 +3,9 @@ import { Fragment } from "react";
 import "./Navbar.css";
 import { Turn as Hamburger } from "hamburger-react";
 import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -18,7 +21,7 @@ export const Navbar = () => {
                 alt=""
               />
             </div>
-            <div className="flex flex-col uppercase justify-start items-start font-semibold text-xl tracking-wide -space-y-2.5 NavbarTitle">
+            <div className="flex flex-col uppercase justify-start items-start font-semibold text-xl tracking-wide -space-y-2.5 NavbarTitle ">
               <div>DR SPM IIIT</div>
               <div>NAYA RAIPUR</div>
             </div>
@@ -50,8 +53,9 @@ export const Navbar = () => {
             className={
               !isOpen
                 ? ""
-                : "NAV_ABOUT flex flex-row justify-center items-center  NavbarDisplay "
+                : "NAV_ABOUT flex flex-row justify-center items-center NavbarDisplay "
             }
+            // data-aos="fade-down"
           >
             <div className="font-medium text-lg cursor-pointer AboutFix">
               About
