@@ -35,4 +35,7 @@
     padding: 2px;
     margin: 5px;
   }
+  .SET_IMAGE {
+    position: relative;
+  }
 }
