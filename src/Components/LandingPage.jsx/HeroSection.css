@@ -1,3 +1,9 @@
+.SET_IMAGE {
+  position: relative;
+  margin-left: 5rem;
+  /* padding: 2rem; */
+}
+
 @media (max-width: 980px) {
   .MobileVersion {
     width: auto;
@@ -36,6 +42,16 @@
     margin: 5px;
   }
   .SET_IMAGE {
-    position: relative;
+    display: none;
   }
+
+  .Back_Area {
+    background-image: url("landingpage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+  }
+}
+.Back_Area {
+  display: flex;
 }
