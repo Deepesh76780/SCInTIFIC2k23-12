@@ -1,0 +1,24 @@
+@media (max-width: 980px) {
+  .Bag {
+    width: auto;
+    margin: auto 20px;
+    height: fit-content;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgb(192, 192, 192);
+    background: rgba(255, 255, 255, 0.746);
+  }
+
+  .SCIFI {
+    font-size: xx-large;
+    width: fit-content;
+    margin: auto;
+  }
+  .AdjustContent3 ol {
+    width: fit-content;
+    margin: auto;
+    font-size: 0.9rem;
+    padding: 40px;
+  }
+}
