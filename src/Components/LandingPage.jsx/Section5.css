@@ -18,7 +18,7 @@
     font-size: medium;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 10px rgb(192, 192, 192);
-    background-image: url("C:/Users/Win-10/Desktop/Startagain/public/assets/howtoparticipate.png");
+    background: rgba(255, 255, 255, 0.746);
   }
   .Heading_content {
     width: fit-content;
