@@ -1,5 +1,8 @@
 import React from "react";
 import "./HeroSection.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 export const HeroSection = () => {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Fragment } from "react";
 import "./Navbar.css";
-import { Spin as Hamburger } from "hamburger-react";
+import { Turn as Hamburger } from "hamburger-react";
 import { useState } from "react";
 
 export const Navbar = () => {
