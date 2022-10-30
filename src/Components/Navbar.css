@@ -96,7 +96,7 @@
   .NAV_ABOUT {
     grid-column: span 2;
   }
-  .okBoss {
+  .Navbar {
     display: grid;
     grid-template-columns: 1fr;
   }
