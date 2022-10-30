@@ -11,7 +11,7 @@ export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <Fragment>
-      <div className="flex flex-row justify-between items-center p-4 text-[#272727] okBoss">
+      <div className="flex flex-row justify-between items-center p-4 text-[#272727] Navbar">
         <div className="flex flex-row justify-start items-center space-x-2 cursor-pointer Logo">
           <div className="flex flex-row justify-start items-center space-x-2 cursor-pointer">
             <div>
