@@ -3,7 +3,7 @@ import "./Section2.css";
 
 export const Section2 = () => {
   return (
-    <div className="lg:flex lg:flex-col justify-center items-center py-4 Bag">
+    <div className="lg:flex lg:flex-col justify-center items-center py-4 Bag" >
       <div className="text-5xl font-extrabold SCIFI">Why  SCI<span id="eta">&#951;</span>
               <span id="prime">&#8242;</span>TFIC ?</div>
       <div className="text-lg font-light pt-6 text-left lg:w-[950px] AdjustContent3">

@@ -24,14 +24,14 @@ function App() {
       <Section4 />
       <div className='h-[75px]'></div>
       <Section5 />
-      <div className='h-[75px]'></div>
-      <Timeline />
+      {/* <div className='h-[75px]'></div>
+      <Timeline /> */}
       <div className='h-[75px]'></div>
       <Themes  />
       <div className='h-[75px]'></div>
       <JudingCriteria />
-      <div className='h-[125px]'></div>
-      <Sponsors />
+      {/* <div className='h-[125px]'></div>
+      <Sponsors /> */}
       <div className='h-[100px]'></div>
       <Footer />
       <div className='h-[25px]'></div>

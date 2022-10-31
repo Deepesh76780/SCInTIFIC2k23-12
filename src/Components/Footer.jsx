@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
     return (
         <>
-            <div className='hidden sm:grid grid-cols-2 place-content-center place-items-start w-full my-2'>
+            <div className='hidden sm:grid grid-cols-2 place-content-center place-items-start w-full my-2' id='contact'>
                 <div className='flex flex-col justify-start items-start space-y-20 px-6 lg:px-10 xl:px-24'>
                     <div className='flex flex-col justify-start items-start text-4xl lg:text-5xl xl:text-6xl font-extrabold -space-y-1'>
                         <div className='drop-shadow-xl shadow-[#5172E7]'>

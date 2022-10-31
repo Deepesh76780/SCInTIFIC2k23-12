@@ -32,12 +32,12 @@ export const HeroSection = () => {
               problems.
             </div>
             <div className="flex flex-row justify-start items-center pt-4 lg:space-x-8 BUTTON">
-              <div className="text-[#5172E7] w-[180px] h-[48px] rounded-full border-2 drop-shadow-xl shadow-2xl shadow-[#F5F5F5] flex justify-center items-center bg-white font-semibold text-opacity-80 cursor-pointer BUTTON1">
+              <a href='#participate' className="text-[#5172E7] w-[180px] h-[48px] rounded-full border-2 drop-shadow-xl shadow-2xl shadow-[#F5F5F5] flex justify-center items-center bg-white font-semibold text-opacity-80 cursor-pointer BUTTON1">
                 How to Participate
-              </div>
-              <div className="w-[180px] h-[48px] rounded-full border-2 drop-shadow-xl cursor-pointer flex justify-center items-center text-transparent  bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] font-bold border-[#272727] BUTTON1">
+              </a>
+              <a  href='#themes' className="w-[180px] h-[48px] rounded-full border-2 drop-shadow-xl cursor-pointer flex justify-center items-center text-transparent  bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] font-bold border-[#272727] BUTTON1">
                 This year’s themes
-              </div>
+              </a>
             </div>
           </div>
           {/* <div className='grid grid-cols-2 place-content-start place-items-start'> */}

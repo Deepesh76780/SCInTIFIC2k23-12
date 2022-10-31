@@ -3,7 +3,7 @@ import "./Section5.css";
 
 export const Section5 = () => {
   return (
-    <div className="lg:flex lg:flex-col justify-center items-center relative Adjust_div ">
+    <div className="lg:flex lg:flex-col justify-center items-center relative Adjust_div " id='participate'>
       <div className="-z-10 IMAGE">
         <img src="./assets/howtoparticipate.png" alt="" />
       </div>

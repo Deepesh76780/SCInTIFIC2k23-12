@@ -2,7 +2,7 @@ import React from "react";
 import "./Section1.css";
 export const Section1 = () => {
   return (
-    <div className="lg:grid lg:grid-cols-2 place-content-center place-items-center ">
+    <div className="lg:grid lg:grid-cols-2 place-content-center place-items-center " id='About'>
       <div className="w-[699px] Adjust_image1">
         <img src="./assets/section1.png" className="scale-[0.85]" alt="" />
       </div>
