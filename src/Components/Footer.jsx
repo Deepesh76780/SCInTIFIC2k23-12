@@ -57,6 +57,9 @@ export const Footer = () => {
                   <div className="text-sm lg:text-base">
                     Ms. Supriya K : +91 9398428741
                   </div>
+                  <div className="text-sm lg:text-base">
+                    Vipulesh : +91 8400436828
+                  </div>
                 </div>
               </div>
               <div className="flex flex-col justify-start items-start space-y-2">
@@ -101,9 +104,9 @@ export const Footer = () => {
                 <div className="text-sm lg:text-base">
                   Ms. Supriya K : +91 9398428741
                 </div>
-                {/* <div className="text-sm lg:text-base">
+                <div className="text-sm lg:text-base">
                   Vipulesh : +91 8400436828
-                </div> */}
+                </div>
               </div>
             </div>
             <div className="flex flex-col justify-start items-start space-y-2">
