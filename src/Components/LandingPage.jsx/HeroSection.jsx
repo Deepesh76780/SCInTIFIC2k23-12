@@ -9,7 +9,7 @@ export const HeroSection = () => {
       <div className="Back_Area">
         <div className="flex flex-col justify-center items-start h-[540px] px-10 rounded-xl MobileVersion">
           <div className="flex flex-col justify-start items-start  space-y-1">
-            <div className="font-extrabold text-transparent text-[5rem] bg-clip-text bg-gradient-to-r from-[#4776E6] to-[#8E54E9] SCIFISIZE">
+            <div className="font-extrabold text-transparent text-[4.5rem] bg-clip-text bg-gradient-to-r from-[#4776E6] to-[#8E54E9] SCIFISIZE">
               SCI<span id="eta">&#951;</span>
               <span id="prime">&#8242;</span>TFIC 2k23
             </div>
