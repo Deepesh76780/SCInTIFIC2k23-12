@@ -8,7 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-
 export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -38,16 +37,30 @@ export const Navbar = () => {
             "flex flex-row justify-center items-center space-x-8 NavbarDisplay NavbarAbout "
           }
         >
-          <a href='#About' className="font-medium text-lg cursor-pointer Adjust">About</a>
-          <a href="#themes" className="font-medium text-lg cursor-pointer">Themes</a>
+          <a
+            href="#About"
+            className="font-medium text-lg cursor-pointer Adjust"
+          >
+            About
+          </a>
+          <a href="#themes" className="font-medium text-lg cursor-pointer">
+            Themes
+          </a>
           {/* <div className="font-medium text-lg cursor-pointer">Schedule</div> */}
-          <a href='#participate' className="font-medium text-lg cursor-pointer">
+          <a href="#participate" className="font-medium text-lg cursor-pointer">
             How to participate
           </a>
-          <a href='#contact' className="font-medium text-lg cursor-pointer">Contact</a>
+          <a href="#contact" className="font-medium text-lg cursor-pointer">
+            Contact
+          </a>
         </div>
 
-        <a href='https://forms.gle/JciXa11ezVZwDtrj8' target='_blank' className="text-[#5172E7] w-[180px] h-[48px] rounded-full border drop-shadow-lg flex justify-center items-center bg-white font-semibold text-opacity-80 cursor-pointer hover:drop-shadow-xl transition duration-100 NavbarSubmit NavbarDisplay">
+        <a
+          href="https://forms.gle/JciXa11ezVZwDtrj8"
+          target="_blank"
+          className="text-[#5172E7] w-[180px] h-[48px] rounded-full border drop-shadow-lg flex justify-center items-center bg-white font-semibold text-opacity-80 cursor-pointer hover:drop-shadow-xl transition duration-100 NavbarSubmit NavbarDisplay"
+          rel="noreferrer"
+        >
           Submit Your Idea
         </a>
         {isOpen ? (
@@ -59,16 +72,36 @@ export const Navbar = () => {
             }
             // data-aos="fade-down"
           >
-            <a href='#About' className="font-medium text-lg cursor-pointer AboutFix">
+            <a
+              href="#About"
+              className="font-medium text-lg cursor-pointer AboutFix"
+            >
               About
             </a>
-            <a href='#themes' className="font-medium text-lg cursor-pointer ">Themes</a>
+            <a href="#themes" className="font-medium text-lg cursor-pointer ">
+              Themes
+            </a>
             {/* <div className="font-medium text-lg cursor-pointer">Schedule</div> */}
-            <a href='#participate' className="font-medium text-lg cursor-pointer">
+            <a
+              href="#participate"
+              className="font-medium text-lg cursor-pointer"
+            >
               How to participate
             </a>
-            <a href='#contact' smooth="true" duration="1000" className="font-medium text-lg cursor-pointer">Contact</a>
-            <a href='https://forms.gle/JciXa11ezVZwDtrj8' target='_blank' className="text-[#5172E7]  h-[30px] rounded-full border drop-shadow-lg  bg-white font-semibold text-opacity-80 cursor-pointer hover:drop-shadow-xl transition duration-100 NavbarSubmit SubmitIdea">
+            <a
+              href="#contact"
+              smooth="true"
+              duration="1000"
+              className="font-medium text-lg cursor-pointer"
+            >
+              Contact
+            </a>
+            <a
+              href="https://forms.gle/JciXa11ezVZwDtrj8"
+              target="_blank"
+              className="text-[#5172E7] p-3 rounded-full border drop-shadow-lg  bg-white font-semibold text-opacity-80 cursor-pointer hover:drop-shadow-xl transition duration-100 SubmitIdea"
+              rel="noreferrer"
+            >
               Submit Your Idea
             </a>
           </div>
