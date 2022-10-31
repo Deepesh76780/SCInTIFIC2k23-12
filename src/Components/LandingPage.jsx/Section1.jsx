@@ -7,7 +7,7 @@ export const Section1 = () => {
         <img src="./assets/section1.png" className="scale-[0.85]" alt="" />
       </div>
       <div className="lg:flex lg:flex-col justify-center items-center space-y-6  Adjust_content1">
-        <div className="text-4xl font-extrabold Scintific">
+        <div className="text-4xl font-extrabold Scintific text-[#4776E6]">
           SCI<span id="eta">&#951;</span>
               <span id="prime">&#8242;</span>TFIC 2k23
               </div>

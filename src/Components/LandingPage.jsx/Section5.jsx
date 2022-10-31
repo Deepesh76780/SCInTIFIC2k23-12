@@ -3,17 +3,20 @@ import "./Section5.css";
 
 export const Section5 = () => {
   return (
-    <div className="lg:flex lg:flex-col justify-center items-center relative Adjust_div " id='participate'>
+    <div
+      className="lg:flex lg:flex-col justify-center items-center relative Adjust_div "
+      id="participate"
+    >
       <div className="-z-10 IMAGE">
         <img src="./assets/howtoparticipate.png" alt="" />
       </div>
       <div className="lg:absolute lg:z-10 lg:grid lg:grid-cols-2 w-full ">
         <div className="lg:flex lg:flex-col items-start justify-center lg:px-40 mt-20 FixContent">
-          <div className=" lg:flex lg:flex-col text-6xl font-extrabold drop-shadow-lg border-none pb-20 Heading_content">
+          <div className=" lg:flex lg:flex-col text-6xl font-extrabold drop-shadow-lg border-none pb-20 Heading_content text-[#4776E6]">
             <div>How to</div>
             <div>Participate?</div>
           </div>
-          <div className="text-lg text-[#5172E7] text-opacity-80 font-semibold cursor-pointer flex flex-col justify-center items-center pt-8 Desktop">
+          <div className="hidden lg:flex text-lg text-[#5172E7] text-opacity-80 font-semibold cursor-pointer flex flex-col justify-center items-center pt-8">
             <div>SEE THEMES</div>
             <div>
               <svg
@@ -44,9 +47,9 @@ export const Section5 = () => {
             </li>
             <li className="py-1.5">
               Think about any innovative solution to the problems listed under
-              the  SCI<span id="eta">&#951;</span>
-              <span id="prime">&#8242;</span>TFIC 2k23 themes. Take help from your
-              teachers/mentors/parents.
+              the SCI<span id="eta">&#951;</span>
+              <span id="prime">&#8242;</span>TFIC 2k23 themes. Take help from
+              your teachers/mentors/parents.
             </li>
             <li className="py-1.5">
               {" "}
@@ -64,7 +67,7 @@ export const Section5 = () => {
             {/* <li className='py-1.5'>To encourage school students for higher education in science and technology.</li> */}
           </ol>
         </div>
-        <div className="text-lg text-[#5172E7] text-opacity-80 font-semibold cursor-pointer flex flex-col justify-center items-center pt-8 Mobile_version">
+        <div className="text-lg text-[#5172E7] text-opacity-80 font-semibold cursor-pointer flex flex-col justify-center items-center pt-8 lg:hidden">
           <div>SEE THEMES</div>
           <div>
             <svg
