@@ -52,10 +52,10 @@ export const Footer = () => {
                 </div>
                 <div className="flex flex-col justify-start items-start space-y-0.5">
                   <div className="text-sm lg:text-base">
-                    Mr. Nishoak Kosaraju : +91 6309106555
+                    Nishoak Kosaraju : +91 6309106555
                   </div>
                   <div className="text-sm lg:text-base">
-                    Ms. Supriya K : +91 9398428741
+                    Supriya K : +91 9398428741
                   </div>
                   <div className="text-sm lg:text-base">
                     Vipulesh : +91 8400436828
@@ -67,11 +67,11 @@ export const Footer = () => {
                   Organizing Student team members
                 </div>
                 <div className="grid grid-cols-2 place-content-center place-items-start">
-                  <div className="text-sm lg:text-base">Mr. Rony Joseph</div>
-                  <div className="text-sm lg:text-base">Mr. Anand Bachker</div>
-                  <div className="text-sm lg:text-base">Mr. Sai Prabhat</div>
+                  <div className="text-sm lg:text-base">Rony Joseph</div>
+                  <div className="text-sm lg:text-base">Anand Bachker</div>
+                  <div className="text-sm lg:text-base">Sai Prabhat</div>
                   <div className="text-sm lg:text-base">
-                    Mr. Sudhanshu Tripathi
+                    Sudhanshu Tripathi
                   </div>
                 </div>
               </div>
@@ -99,10 +99,10 @@ export const Footer = () => {
               </div>
               <div className="flex flex-col justify-start items-start space-y-0.5">
                 <div className="text-sm lg:text-base">
-                  Mr. Nishoak Kosaraju : +91 6309106555
+                  Nishoak Kosaraju : +91 6309106555
                 </div>
                 <div className="text-sm lg:text-base">
-                  Ms. Supriya K : +91 9398428741
+                  Supriya K : +91 9398428741
                 </div>
                 <div className="text-sm lg:text-base">
                   Vipulesh : +91 8400436828
@@ -114,11 +114,11 @@ export const Footer = () => {
                 Organizing Student team members
               </div>
               <div className="grid grid-cols-2 place-content-center place-items-start">
-                <div className="text-sm lg:text-base">Mr. Rony Joseph</div>
-                <div className="text-sm lg:text-base">Mr. Anand Bachker</div>
-                <div className="text-sm lg:text-base">Mr. Sai Prabhat</div>
+                <div className="text-sm lg:text-base">Rony Joseph</div>
+                <div className="text-sm lg:text-base">Anand Bachker</div>
+                <div className="text-sm lg:text-base">Sai Prabhat</div>
                 <div className="text-sm lg:text-base">
-                  Mr. Sudhanshu Tripathi
+                  Sudhanshu Tripathi
                 </div>
               </div>
             </div>
