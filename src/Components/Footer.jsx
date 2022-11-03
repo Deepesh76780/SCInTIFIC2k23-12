@@ -58,7 +58,7 @@ export const Footer = () => {
                     Supriya K : +91 9398428741
                   </div>
                   <div className="text-sm lg:text-base">
-                    Vipulesh : +91 8400436828
+                  Mohd Meeraj : +91 9001076499
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export const Footer = () => {
                   Supriya K : +91 9398428741
                 </div>
                 <div className="text-sm lg:text-base">
-                  Vipulesh : +91 8400436828
+                Mohd Meeraj : +91 9001076499
                 </div>
               </div>
             </div>
