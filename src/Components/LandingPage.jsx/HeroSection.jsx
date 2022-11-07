@@ -9,12 +9,15 @@ export const HeroSection = () => {
       <div className="Back_Area">
         <div className="flex flex-col justify-center items-start h-[540px] px-10 rounded-xl MobileVersion">
           <div className="flex flex-col justify-start items-start  space-y-1">
-            <div className="font-extrabold text-transparent text-[4.5rem] bg-clip-text bg-gradient-to-r from-[#4776E6] to-[#8E54E9] SCIFISIZE">
+            <div className="font-extrabold text-transparent text-[4.25rem] bg-clip-text bg-gradient-to-r from-[#4776E6] to-[#8E54E9] SCIFISIZE">
               SCI<span id="eta">&#951;</span>
               <span id="prime">&#8242;</span>TFIC 2k23
             </div>
-            <div className="text-transparent text-[1.5rem] bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] TEXTSIZE">
+            <div className="text-transparent text-[1.75rem] bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] TEXTSIZE">
               Science and Technology over Fiction
+            </div>
+            <div className="text-transparent text-[1.5rem] bg-clip-text bg-gradient-to-r from-[#272727] to-[#272727CC] TEXTSIZE">
+              14th January 2023
             </div>
             <div className="text-2xl text-transparent  bg-clip-text bg-gradient-to-r from-[#B24592] to-[#F15F79] font-bold">
               Ideathon 5.0
