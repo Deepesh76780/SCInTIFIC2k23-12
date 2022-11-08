@@ -64,13 +64,13 @@ export const Navbar = () => {
           Submit Your Idea
         </a>
         {isOpen ? (
+          <>
           <div
             className={
               !isOpen
                 ? ""
                 : "NAV_ABOUT flex flex-row justify-center items-center NavbarDisplay "
             }
-            // data-aos="fade-down"
           >
             <a
               href="#About"
@@ -89,7 +89,7 @@ export const Navbar = () => {
               How to participate
             </a>
             <a
-              href="#contact"
+              href="#contact1"
               smooth="true"
               duration="1000"
               className="font-medium text-lg cursor-pointer"
@@ -105,6 +105,7 @@ export const Navbar = () => {
               Submit Your Idea
             </a>
           </div>
+          </>
         ) : (
           ""
         )}

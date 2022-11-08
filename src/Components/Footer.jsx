@@ -78,7 +78,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center space-y-6 sm:hidden px-2">
+        <div className="flex flex-col justify-center items-center space-y-6 sm:hidden px-2" id="contact1">
           <div className="flex flex-col justify-center items-center text-3xl">
             <div className="drop-shadow-xl shadow-[#5172E7] uppercase font-bold">
               Get in TOUCH WITH US.
